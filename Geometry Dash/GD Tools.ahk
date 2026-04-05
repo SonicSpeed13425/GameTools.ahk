@@ -1,6 +1,30 @@
 ﻿#Requires AutoHotkey v2.0
 #SingleInstance Force
 
+MsgBox "
+(
+GD Tools.ahk - Info
+
+F1  = Toggle script ON/OFF
+F2  = Restart script
+Ctrl+Esc = Exit script
+
+When the script is ON:
+
+F  = Hold Space
+J  = Hold Left Mouse Button
+G  = Hold Up Arrow
+H  = Hold W
+
+1  = Ultra-fast auto-spacer (Space spam)
+2  = Wave-perfect auto-spacer
+3  = Ship/Wave hybrid auto-spacer
+
+This script does NOT modify game files or memory.
+It only sends normal keyboard inputs.
+)"
+
+
 A_MaxHotkeysPerInterval := 15000
 A_HotkeyInterval := 15000
 SendMode "Event"
