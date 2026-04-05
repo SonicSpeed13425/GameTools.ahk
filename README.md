@@ -1,7 +1,11 @@
 # GameTools.ahk
 
-GameTools.ahk is a small collection of AutoHotkey v2 scripts I use for various games.  
-These tools **do not modify game files**, **do not access personal data**, and **only send normal keyboard inputs**.
+GameTools.ahk is a small collection of AutoHotkey v2 scripts I use for various games.
+
+A small number of tools (like ***RBX_FPS_UNLOCKER.ahk***) may edit a game's **local settings file** to change things such as FPS caps.
+This is just one example — other tools in this repository may edit different **local settings files** for different purposes.
+These edits are **safe**, **optional**, and **fully user‑controlled**.
+All other tools only send **normal keyboard inputs**.
 
 ## ❓ What is AutoHotkey and how do I get it?
 - AutoHotkey is a simple but powerful scripting language for Windows. It can automate keys, create GUIs, and build small tools like the ones in this repository.
@@ -30,3 +34,11 @@ GD Tools includes:
   - **3** → ship/wave hybrid auto‑spacer  
 
 These are just input helpers — nothing that modifies the game itself.
+
+### Tommorow: NEW TOOL!1!1!1!
+RBX_FPS_UNLOCKER.ahk is a simple tool that lets you change your Roblox FPS cap to any value you choose as long as its under the value 10,000 (do not include commas when inputting value, i just used commas to make it clearer)
+
+### ❓ Why tommorow?
+i've had a bit to many contributions today and would like to do it tommorow rather than burning myself out and more!
+
+Note: **RBX_FPS_UNLOCKER** will modify the globalbasicsettings_13.xml file, find `<int name="FramerateCap">yourfpscap</int>` then edit it to the value you input into the input box
