@@ -3,10 +3,10 @@
 GameTools.ahk is a small collection of AutoHotkey v2 scripts I use for various games.  
 These tools **do not modify game files**, **do not access personal data**, and **only send normal keyboard inputs**.
 
-## ❓ What is AutoHotkey and how do i get it?
-- AutoHotkey is a powerful programming language that is simple to understand and is pretty powerful at GUI, It can make keys automate a task and much more
-- AutoHotkey can be installed through https://www.autohotkey.com/ or [this masked link!](https://www.autohotkey.com/)
-- AutoHotkey can sometimes have scripts that are malicious but these are mainly .exes/compiled AutoHotkey scripts, this is completely open-source so you have nothing to worry about
+## ❓ What is AutoHotkey and how do I get it?
+- AutoHotkey is a simple but powerful scripting language for Windows. It can automate keys, create GUIs, and build small tools like the ones in this repository.
+- You can download AutoHotkey from the official website: https://www.autohotkey.com/
+- Some AutoHotkey scripts online can be malicious, especially compiled `.exe` versions. Everything in this repository is **open‑source .ahk files**, so you can read the code yourself and know it’s safe.
 
 ## 🎮 What kind of tools are in this repository?
 Over time, this repo will include multiple AHK tools for different games I play.  
