@@ -79,6 +79,14 @@ $3:: {
     }
 }
 
+$V:: {
+   Send "Z"
+}
+
+$B:: {
+   Send "X"
+}
+
 #HotIf
 F2:: {
     scriptPath := A_ScriptFullPath
